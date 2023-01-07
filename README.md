@@ -9,7 +9,7 @@ Par exemple:
 git clone https://github.com/emmanueltran/wordpress.git <path/folder_name>
 ```
 
-2. Sur le terminal, vouz aller construire et lancer le projet:
+2. Sur le terminal, vouz aller construire et lancer le projet. Assurez que vous dans :
 ```console
 docker-compose up -d
 ```
