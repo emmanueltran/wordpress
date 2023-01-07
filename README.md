@@ -25,7 +25,7 @@ Pour l'image Wordpress:
 docker pull tranemmanuel/wordpress:wp
 ```
 
-3. Assurez vous que vous etes bien dans le bon répertoire (path/wordpress).
+3. Assurez vous que vous etes bien dans le bon répertoire.
 Vous allez lancez les conteneurs:
 ```console
 docker-compose up
