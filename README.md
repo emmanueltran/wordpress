@@ -45,5 +45,5 @@ docker-compose logs wordpress
 
 4. Vous devriez maintenant être en mesure d'accéder à votre application à l'adresse:
 ```console
-http://localhost:8080
+http://localhost:8000
 ```
