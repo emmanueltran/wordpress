@@ -15,6 +15,7 @@ docker-compose up -d
 ```
 
 Si vous voulez vérifiez que le service MySQL et le service Wordpress sont bien en marche:
+
 Pour le service MySQL:
 ```console
 docker-compose logs db 
