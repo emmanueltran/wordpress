@@ -9,7 +9,9 @@ Par exemple:
 git clone https://github.com/emmanueltran/wordpress.git <path/folder_name>
 ```
 
-2. Sur le terminal, vouz aller construire et lancer le projet. Assurez que vous dans :
+2. Assurez vous que vous avez toutes les installation de Docker nécessaire: [Docker](https://docs.docker.com/get-docker/).
+
+Sur le terminal, vouz aller construire et lancer le projet. Assurez que vous etes dans le bon chemin:
 ```console
 docker-compose up -d
 ```
@@ -23,7 +25,7 @@ docker-compose logs db
 
 Pour le service Wordpress:
 ```console
-docker-compose logs db 
+docker-compose logs wordpress 
 ```
 
 3. Vous devriez maintenant être en mesure d'accéder à votre application à l'adresse:
