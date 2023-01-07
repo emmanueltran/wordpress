@@ -14,13 +14,22 @@ git clone https://github.com/emmanueltran/wordpress.git <path/folder_name>
 
 2. Récupérer les images sur Docker Hub:
 
-Sur le terminal:
-Pour l'image MySQL:
+- Sur le terminal, connectez-vous a votre compte Docker Hub:
+```console
+docker login
+```
+```console
+Username: your_username
+Password:
+Login Succeeded
+```
+
+- Pour récupérer l'image MySQL:
 ```console
 docker pull tranemmanuel/wordpress:db
 ```
 
-Pour l'image Wordpress:
+- Pour récupérer l'image Wordpress:
 ```console
 docker pull tranemmanuel/wordpress:wp
 ```
@@ -33,12 +42,12 @@ docker-compose up
 
 Si vous voulez vérifiez que le service MySQL et le service Wordpress sont bien en marche:
 
-Pour le service MySQL:
+- Pour le service MySQL:
 ```console
 docker-compose logs db 
 ```
 
-Pour le service Wordpress:
+- Pour le service Wordpress:
 ```console
 docker-compose logs wordpress 
 ```
